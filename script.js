@@ -88,11 +88,6 @@ function clearStatusClass(element) {
     element.classList.remove('correct');
     element.classList.remove('wrong');
 }
-
-function clearStatusClass(element){
-    element.classList.remove('correct')
-    element.classList.remove('wrong')
-}
 const questions = [
     {
         question: 'Which one of these is a JavaScript framework?',
